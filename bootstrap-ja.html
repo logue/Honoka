@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Honoka</title>
+  <title>Konata</title>
 
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <style type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <style type="text/css">/*<![CDATA[*/
   body { padding-top: 80px; }
   @media ( min-width: 768px ) {
     #banner {
@@ -46,13 +46,7 @@
       margin-bottom: 10px;
     }
   }
-  </style>
-
-  <!--[if lt IE 9]>
-    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
+  /*]]>*/</style>
 </head>
 <body>
 
@@ -60,7 +54,7 @@
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <a href="/" class="navbar-brand">Honoka</a>
+        <a href="./" class="navbar-brand">Honoka</a>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -77,8 +71,8 @@
               <li><a href="./bootstrap.html">English Page</a></li>
             </ul>
           </li>
-          <li><a href="//github.com/windyakin/Honoka/releases">Download</a></li>
-          <li><a href="//github.com/windyakin/Honoka/wiki">Wiki</a></li>
+          <li><a href="https://github.com/logue/Kanata/releases">Download</a></li>
+          <li><a href="https://github.com/logue/Kanata/wiki">Wiki</a></li>
         </ul>
       </div>
     </div>
@@ -96,12 +90,12 @@
       <div class="col-lg-4 col-md-5 col-sm-6">
         <aside class="panel panel-default">
           <div class="panel-heading">
-            <h4 class="panel-title">游ゴシックの有効・無効切り替え</h4>
+            <h4 class="panel-title">Noto Sans JPの有効・無効切り替え</h4>
           </div>
           <div class="panel-body">
-            <p>v3.3.5から<code>&lt;body&gt;</code>に<code>.no-thank-yu</code>を指定することで游ゴシックを使わないようにすることができるようになりました。</p>
-            <p id="anti-yu-gothic-message">現在デモページは游ゴシックの指定が<span class="text-primary">有効</span>になっています。</p>
-            <div><button id="anti-yu-gothic-button" class="btn btn-danger btn-block">游ゴシックを無効にする</button></div>
+            <p>v3.3.5から<code>&lt;body&gt;</code>に<code>.no-thank-noto</code>を指定することでNoto Sans JPを使わないようにすることができるようになりました。</p>
+            <p id="anti-yu-gothic-message">現在デモページはNoto Sans JPの指定が<span class="text-primary">有効</span>になっています。</p>
+            <div><button id="anti-noto-button" class="btn btn-danger btn-block">Noto Sans JPを無効にする</button></div>
           </div>
         </aside>
       </div>
@@ -201,7 +195,7 @@
                 </ul>
                 <form class="navbar-form navbar-left" role="search">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
+                    <input type="text" class="form-control" placeholder="Search" />
                   </div>
                   <button type="submit" class="btn btn-default">検索</button>
                 </form>
@@ -552,16 +546,16 @@
               <div class="form-group">
                 <label for="inputEmail" class="col-lg-2 control-label">Email</label>
                 <div class="col-lg-10">
-                  <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                  <input type="text" class="form-control" id="inputEmail" placeholder="Email" />
                 </div>
               </div>
               <div class="form-group">
                 <label for="inputPassword" class="col-lg-2 control-label">Password</label>
                 <div class="col-lg-10">
-                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password" />
                   <div class="checkbox">
                     <label>
-                      <input type="checkbox"> Checkbox
+                      <input type="checkbox" /> Checkbox
                     </label>
                   </div>
                 </div>
@@ -578,13 +572,13 @@
                 <div class="col-lg-10">
                   <div class="radio">
                     <label>
-                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="" />
                       こっち
                     </label>
                   </div>
                   <div class="radio">
                     <label>
-                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" />
                       あっち
                     </label>
                   </div>
@@ -625,42 +619,42 @@
           <form class="bs-component">
             <div class="form-group">
               <label class="control-label" for="focusedInput">Focused input</label>
-              <input class="form-control" id="focusedInput" type="text" value="This is focused...">
+              <input class="form-control" id="focusedInput" type="text" value="This is focused..." />
             </div>
 
             <div class="form-group">
               <label class="control-label" for="disabledInput">Disabled input</label>
-              <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="">
+              <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="" />
             </div>
 
             <div class="form-group has-warning">
               <label class="control-label" for="inputWarning">Input warning</label>
-              <input type="text" class="form-control" id="inputWarning">
+              <input type="text" class="form-control" id="inputWarning" />
             </div>
 
             <div class="form-group has-error">
               <label class="control-label" for="inputError">Input error</label>
-              <input type="text" class="form-control" id="inputError">
+              <input type="text" class="form-control" id="inputError" />
             </div>
 
             <div class="form-group has-success">
               <label class="control-label" for="inputSuccess">Input success</label>
-              <input type="text" class="form-control" id="inputSuccess">
+              <input type="text" class="form-control" id="inputSuccess" />
             </div>
 
             <div class="form-group">
               <label class="control-label" for="inputLarge">Large input</label>
-              <input class="form-control input-lg" type="text" id="inputLarge">
+              <input class="form-control input-lg" type="text" id="inputLarge" />
             </div>
 
             <div class="form-group">
               <label class="control-label" for="inputDefault">Default input</label>
-              <input type="text" class="form-control" id="inputDefault">
+              <input type="text" class="form-control" id="inputDefault" />
             </div>
 
             <div class="form-group">
               <label class="control-label" for="inputSmall">Small input</label>
-              <input class="form-control input-sm" type="text" id="inputSmall">
+              <input class="form-control input-sm" type="text" id="inputSmall" />
             </div>
 
             <div class="form-group">
@@ -1240,26 +1234,26 @@
 </div>
 
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
 
-<script type="text/javascript">
+<script type="text/javascript">/*<![CDATA[*/
   $('.bs-component [data-toggle="popover"]').popover();
   $('.bs-component [data-toggle="tooltip"]').tooltip();
 
-  $('#anti-yu-gothic-button').on('click', function() {
-    if ( $('body').hasClass('no-thank-yu') ) {
-      $('body').removeClass('no-thank-yu');
-      $(this).text('游ゴシックを無効にする').removeClass('btn-primary').addClass('btn-danger');
+  $('#anti-noto-button').on('click', function() {
+    if ( $('body').hasClass('no-thank-noto') ) {
+      $('body').removeClass('no-thank-noto');
+      $(this).text('Noto Sans JPを無効にする').removeClass('btn-primary').addClass('btn-danger');
       $("#anti-yu-gothic-message").html('現在デモページは游ゴシックの指定が<span class="text-primary">有効</span>になっています。');
     }
     else {
-      $('body').addClass('no-thank-yu');
-      $(this).text('游ゴシックを有効にする').removeClass('btn-danger').addClass('btn-primary');
+      $('body').addClass('no-thank-noto');
+      $(this).text('Noto Sans JPを有効にする').removeClass('btn-danger').addClass('btn-primary');
       $("#anti-yu-gothic-message").html('現在デモページは游ゴシックの指定が<span class="text-danger">無効</span>になっています。');
     }
   });
-</script>
+/*]]>*/</script>
 
 </body>
 </html>
