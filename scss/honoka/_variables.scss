@@ -51,7 +51,7 @@ $link-hover-decoration: underline !default;
 //## Font, line-height, and color for body text, headings, and more.
 $font-family-noto-sans-jp-import-path: "https://fonts.googleapis.com/earlyaccess/notosansjp.css" !default;
 $font-family-humanist-sans-serif: 'Noto Sans JP','Helvetica Neue', Helvetica, 'Arial', '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !default;
-$font-family-sans-serif:  'Noto Sans JP','Helvetica Neue', Helvetica, 'Arial', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !default;
+$font-family-sans-serif:  'Helvetica Neue', Helvetica, 'Arial', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif !default;
 $font-family-serif:       'Times New Roman', Times, '游明朝体', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'ＭＳ Ｐ明朝', 'MS PMincho', 'MS 明朝', serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Consolas, "Liberation Mono", Menlo, Courier, monospace !default;
