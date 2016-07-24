@@ -189,7 +189,7 @@ body {
   margin-bottom: 0;
   overflow: hidden;
   text-align: center;
-  background-color: #fdcea0;
+  background-color: #b0bec5;
   background-image: url("../img/circle.png");
   background-repeat: no-repeat;
   background-position: -35% center;
@@ -228,7 +228,7 @@ section.section.section-default {
   background-color: #fff;
 }
 section.section.section-inverse {
-  background-color: #fff5eb;
+  background-color: #dce2e5;
 }
 section.section .subtitle {
   margin-bottom: 23px;
@@ -332,6 +332,7 @@ footer .copyright {
 .bootstrap-default {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
+  line-height: 1.4285;
 }
 .bootstrap-default > h3 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
