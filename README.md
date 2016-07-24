@@ -1,30 +1,30 @@
-# Honoka
+# Konata
 
-[![Build Status by Travis CI](https://travis-ci.org/windyakin/Honoka.svg?branch=master)](https://travis-ci.org/windyakin/Honoka)
+[![Build Status by Travis CI](https://travis-ci.org/windyakin/Konata.svg?branch=master)](https://travis-ci.org/windyakin/Konata)
 [![Build status by AppVeyor](https://ci.appveyor.com/api/projects/status/6j4y6bugti7f1aff/branch/master?svg=true)](https://ci.appveyor.com/project/windyakin/honoka/branch/master)
-[![devDependency Status](https://david-dm.org/windyakin/Honoka/dev-status.svg)](https://david-dm.org/windyakin/Honoka#info=devDependencies)
+[![devDependency Status](https://david-dm.org/windyakin/Konata/dev-status.svg)](https://david-dm.org/windyakin/Konata#info=devDependencies)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-[http://honokak.osaka/](http://honokak.osaka/)
+[https://logue.github.io/Kanata/](https://logue.github.io/Kanata/)
 
-[![Honoka](dist/assets/img/sample.png)](http://honokak.osaka/)
+[![Kanata](dist/assets/img/sample.png)](https://logue.github.io/Kanata/)
 
-"Honoka" は日本語も美しく表示できるBootstrapテーマです。
+"Konata" は日本語も美しく表示できるBootstrapテーマです。
 
-## About "Honoka"
+## About "Konata"
 
-通常の[Bootstrap](http://getbootstrap.com/)では，日本語のフォント指定や文字サイズは最適とはいえません。"Honoka"はそんなBootstrapをベースに，日本語表示に適したフォント指定や，文字サイズに関するコードを追記したBootstrapテーマの一つです。
+通常の[Bootstrap](http://getbootstrap.com/)では，日本語のフォント指定や文字サイズは最適とはいえません。"Kanata"はそんなBootstrapをベースに，日本語表示に適したフォント指定や，文字サイズに関するコードを追記したBootstrapテーマの一つです。
 
 ## Live Demo
 
- * [http://honokak.osaka/bootstrap-ja.html](http://honokak.osaka/bootstrap-ja.html) (日本語レイアウト)
- * [http://honokak.osaka/bootstrap.html](http://honokak.osaka/bootstrap.html) (英語レイアウト)
+ * [https://logue.github.io/Kanata/bootstrap-ja.html](https://logue.github.io/Kanata/bootstrap-ja.html) (日本語レイアウト)
+ * [https://logue.github.io/Kanata/bootstrap.html](https://logue.github.io/Kanata/bootstrap.html) (英語レイアウト)
 
 ## Getting Started
 
 ### Download
 
-[Releases](https://github.com/windyakin/Honoka/releases)から最新版をダウンロードしてください。
+[Releases](https://github.com/logue/Kanata/releases)から最新版をダウンロードしてください。
 
 ### Bower
 
@@ -33,20 +33,20 @@
 最新版をインストールするには以下のコマンドを実行してください。
 
 ```
-bower install --save-dev $(node -e "$(curl -fsSL https://cdn.honokak.osaka/last.js)" windyakin Honoka)
+bower install --save-dev $(node -e "$(curl -fsSL https://cdn.honokak.osaka/last.js)" logue Kanata)
 ```
 
 もしcURLが入っていない環境の場合には、
 
 ```
-bower install --save-dev Honoka#(version)
+bower install --save-dev Konata#(version)
 ```
 
-``(version)``にはバージョン番号を指定します(ex. ``Honoka#3.3.5-c``)。Honokaの最新バージョン番号は[Releases](https://github.com/windyakin/Honoka/releases)から確認してください。
+``(version)``にはバージョン番号を指定します(ex. ``Kanata#3.3.6-b``)。Konataの最新バージョン番号は[Releases](https://github.com/logue/Kanata/releases)から確認してください。
 
 ## Usage
 
-Honokaは単なるBootstrapテーマにしか過ぎないため，基本的な使い方は本家Bootstrapとほとんど変わりません。よって以下に書くことは[本家Bootstrap](http://getbootstrap.com/getting-started/)からの引用，もしくはその一部を変更したものです。用意されたCSSクラスやコンポーネントなど，より詳細な使い方のドキュメントは本家Bootstrapの各種リファレンスページをご覧になることを推奨します。
+Konataは単なるBootstrapテーマにしか過ぎないため，基本的な使い方は本家Bootstrapとほとんど変わりません。よって以下に書くことは[本家Bootstrap](http://getbootstrap.com/getting-started/)からの引用，もしくはその一部を変更したものです。用意されたCSSクラスやコンポーネントなど，より詳細な使い方のドキュメントは本家Bootstrapの各種リファレンスページをご覧になることを推奨します。
 
  * [CSS](http://getbootstrap.com/css/)
  * [Components](http://getbootstrap.com/components/)
@@ -93,30 +93,30 @@ Bootstrapをつかってウェブページを作成する際に基本となるHT
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js" integrity="sha384-qFIkRsVO/J5orlMvxK1sgAt2FXT67og+NyFTITYzvbIP1IJavVEKZM7YWczXkwpB" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
     <![endif]-->
   </head>
   <body>
     <h1>Hello, world!</h1>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
 ```
 
-### Do you hate "YuGothic"?
+### Do you hate "Noto Sans JP"?
 
-もしあなたが日本語フォントに游ゴシックを指定したくない場合，その要素に対して``.no-thank-yu``(※``you``ではなく``yu``)を指定することで游ゴシックの指定はされなくなり，Windowsであればメイリオ，Mac OS Xであればヒラギノ角ゴを優先的に使用するようになります。
+もしあなたが日本語フォントにNoto Sans JPを指定したくない場合，その要素に対して``.no-thank-yu``(※``you``ではなく``yu``)を指定することでNoto Sans JPの指定はされなくなり，Windowsであればメイリオ，Mac OS Xであればヒラギノ角ゴを優先的に使用するようになります。
 
-例えばページ全体に対して游ゴシックを用いたくない場合は，``<body>``に対して``.no-thank-yu``を指定(``<body class="no-thank-yu">``)することで，ページ全体で游ゴシックは使用されなくなります。
+例えばページ全体に対してNoto Sans JPを用いたくない場合は，``<body>``に対して``.no-thank-yu``を指定(``<body class="no-thank-yu">``)することで，ページ全体でNoto Sans JPは使用されなくなります。
 
 ## Build
 
-ビルドの方法については [Wiki](https://github.com/windyakin/Honoka/wiki) をご覧ください。
+ビルドの方法については [Wiki](https://github.com/windyakin/Konata/wiki) をご覧ください。
 
 ## License
 
@@ -125,3 +125,4 @@ Bootstrapをつかってウェブページを作成する際に基本となるHT
 ## Author
 
  * windyakin ([windyakin.net](http://windyakin.net/))
+ * Logue([Epilogue/LogueWiki](https://logue.be/))

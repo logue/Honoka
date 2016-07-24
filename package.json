@@ -1,9 +1,9 @@
 {
-  "name": "Honoka",
+  "name": "Kanata",
   "version": "3.3.6-b",
-  "description": "Honoka is one of the Bootstrap original theme.",
-  "author": "windyakin",
-  "website": "http://honokak.osaka/",
+  "description": "Kanata a fork of Honoka which is a Bootstrap theme.",
+  "author": "Logue",
+  "website": "http://logue.github.io/Kanata",
   "license": "MIT",
   "main": "Gruntfile.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/windyakin/honoka.git"
+    "url": "https://github.com/logue/Kanata.git"
   },
   "devDependencies": {
     "bower": "^1.7.7",
