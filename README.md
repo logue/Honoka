@@ -1,19 +1,19 @@
-# Konata
+# Kanata
 
-[![Build Status by Travis CI](https://travis-ci.org/windyakin/Konata.svg?branch=master)](https://travis-ci.org/windyakin/Konata)
-[![Build status by AppVeyor](https://ci.appveyor.com/api/projects/status/6j4y6bugti7f1aff/branch/master?svg=true)](https://ci.appveyor.com/project/windyakin/honoka/branch/master)
-[![devDependency Status](https://david-dm.org/windyakin/Konata/dev-status.svg)](https://david-dm.org/windyakin/Konata#info=devDependencies)
+[![Build Status by Travis CI](https://travis-ci.org/logue/Kanata.svg?branch=master)](https://travis-ci.org/logue/Kanata)
+[![Build status by AppVeyor](https://ci.appveyor.com/project/logue/Kanata/branch/master)
+[![devDependency Status](https://david-dm.org/logue/Kanata/dev-status.svg)](https://david-dm.org/logue/Kanata#info=devDependencies)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 [https://logue.github.io/Kanata/](https://logue.github.io/Kanata/)
 
 [![Kanata](dist/assets/img/sample.png)](https://logue.github.io/Kanata/)
 
-"Konata" は日本語も美しく表示できるBootstrapテーマです。
+"Kanata" は日本語も美しく表示できるBootstrapテーマです。
 
-## About "Konata"
+## About "Kanata"
 
-通常の[Bootstrap](http://getbootstrap.com/)では，日本語のフォント指定や文字サイズは最適とはいえません。"Kanata"はそんなBootstrapをベースに，日本語表示に適したフォント指定や，文字サイズに関するコードを追記したBootstrapテーマの一つです。
+通常の[Bootstrap](https://getbootstrap.com/)では，日本語のフォント指定や文字サイズは最適とはいえません。"Kanata"はそんなBootstrapをベースに，日本語表示に適したフォント指定や，文字サイズに関するコードを追記したBootstrapテーマの一つです。
 
 ## Live Demo
 
@@ -28,7 +28,7 @@
 
 ### Bower
 
-[Bower](http://bower.io/)からインストールすることができます。
+[Bower](https://bower.io/)からインストールすることができます。
 
 最新版をインストールするには以下のコマンドを実行してください。
 
@@ -39,18 +39,18 @@ bower install --save-dev $(node -e "$(curl -fsSL https://cdn.honokak.osaka/last.
 もしcURLが入っていない環境の場合には、
 
 ```
-bower install --save-dev Konata#(version)
+bower install --save-dev Kanata#(version)
 ```
 
-``(version)``にはバージョン番号を指定します(ex. ``Kanata#3.3.6-b``)。Konataの最新バージョン番号は[Releases](https://github.com/logue/Kanata/releases)から確認してください。
+``(version)``にはバージョン番号を指定します(ex. ``Kanata#3.3.6-b``)。Kanataの最新バージョン番号は[Releases](https://github.com/logue/Kanata/releases)から確認してください。
 
 ## Usage
 
-Konataは単なるBootstrapテーマにしか過ぎないため，基本的な使い方は本家Bootstrapとほとんど変わりません。よって以下に書くことは[本家Bootstrap](http://getbootstrap.com/getting-started/)からの引用，もしくはその一部を変更したものです。用意されたCSSクラスやコンポーネントなど，より詳細な使い方のドキュメントは本家Bootstrapの各種リファレンスページをご覧になることを推奨します。
+Kanataは単なるBootstrapテーマにしか過ぎないため，基本的な使い方は本家Bootstrapとほとんど変わりません。よって以下に書くことは[本家Bootstrap](https://getbootstrap.com/getting-started/)からの引用，もしくはその一部を変更したものです。用意されたCSSクラスやコンポーネントなど，より詳細な使い方のドキュメントは本家Bootstrapの各種リファレンスページをご覧になることを推奨します。
 
- * [CSS](http://getbootstrap.com/css/)
- * [Components](http://getbootstrap.com/components/)
- * [JavaScript](http://getbootstrap.com/javascript/)
+ * [CSS](https://getbootstrap.com/css/)
+ * [Components](https://getbootstrap.com/components/)
+ * [JavaScript](https://getbootstrap.com/javascript/)
 
 ### Package
 
@@ -81,14 +81,14 @@ Bootstrapをつかってウェブページを作成する際に基本となるHT
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Bootstrap Template</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -116,7 +116,7 @@ Bootstrapをつかってウェブページを作成する際に基本となるHT
 
 ## Build
 
-ビルドの方法については [Wiki](https://github.com/windyakin/Konata/wiki) をご覧ください。
+ビルドの方法については [Wiki](https://github.com/windyakin/Honoka/wiki) をご覧ください。
 
 ## License
 
